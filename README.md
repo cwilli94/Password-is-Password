@@ -1,2 +1,2 @@
 # Password Generator Starter Code
-This prject is a password generator. 
+This project is a password generator. When the user clicks the generate password button, a list of prompts is presented to gather paramters for the password. Once all parameters have been collected a random password is displayed in the text box.
