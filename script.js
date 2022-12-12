@@ -7,7 +7,7 @@ var numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 var availableCharacters = [];
 
 
-//Function in order to prompt and gather user input data as well as return false value if length in not within specifications.
+//Function to prompt and gather user input data and add arrays to availableCharacters as well as return false value if length in not within specifications.
 function getPrompts() {
   availableCharacters = [];
 
@@ -54,7 +54,7 @@ function generatePassword() {
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
-//Added getprompts function and conditional statement to return empty string if getprompts returns false.
+//Added getprompts function and conditional statement to return empty string in text field if getprompts returns false.
 function writePassword() {
   var correctPrompts = getPrompts();
   var passwordText = document.querySelector("#password");
